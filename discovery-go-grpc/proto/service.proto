@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package greet;
+option go_package = ".;greet";
+
+import "greet.proto";
+
+service GreetService {
+  rpc hi(HiRequest) returns (HiResponse);
+}

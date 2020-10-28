@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package greet;
+option go_package=".;greet";
+
+message HiRequest {
+  string name = 1;
+}
+
+message HiResponse {
+  string message = 1;
+}
