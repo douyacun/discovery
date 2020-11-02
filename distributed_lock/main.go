@@ -34,7 +34,7 @@ func Do(key string) error {
 	}()
 	log.Printf("get lock: %d", i)
 	i++
-	time.Sleep(time.Second)
+	time.Sleep(time.Second * 3)
 	return nil
 }
 
