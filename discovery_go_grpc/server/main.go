@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"discovery/discovery_go_grpc/grpclb"
-	greetProto "discovery/discovery_go_grpc/proto"
+	"etcd/discovery_go_grpc/grpclb"
+	greetProto "etcd/discovery_go_grpc/proto"
 	"fmt"
 	"github.com/coreos/etcd/clientv3"
 	"google.golang.org/grpc"
