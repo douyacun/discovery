@@ -1,0 +1,8 @@
+{
+  "LogConfig": {
+    "Level": "info"
+  },
+  "EnvConfig": {
+    "Env": "prd"
+  }
+}
